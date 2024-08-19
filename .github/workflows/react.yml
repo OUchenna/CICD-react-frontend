@@ -20,7 +20,7 @@ jobs:
       - name: Build, tag, and push
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: soundnw/fullstack
+          image: okoliuc/uchedocker
           registry: docker.io
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
