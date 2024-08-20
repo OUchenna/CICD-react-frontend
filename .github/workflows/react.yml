@@ -38,7 +38,7 @@ jobs:
           script: |
             cd /home/ubuntu/CICD-react-frontend
             sudo git checkout uchedocker
-            sudo git pull docker
+            sudo git pull uchedocker
             sudo docker-compose pull
             sudo docker-compose up -d --force-recreate
       
