@@ -8,6 +8,6 @@
 
 .divider {
   height: 4px;
-  background: linear-gradient(90deg, #2c5037, #34db5b);
+  background: linear-gradient(90deg, #50462c, #34db5b);
   transform-origin: left;
 }
